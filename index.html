@@ -14,7 +14,7 @@
 
 <body>
     <div id="app">
-        <ul v-for="number in array">
+        <ul v-for="number in array" v-if="array.length == 10">
             <li>{{number}}</li>
         </ul>
     </div>
